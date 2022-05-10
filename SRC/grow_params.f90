@@ -35,7 +35,7 @@
    integer, parameter :: ndif0=15000000        !max total number of differential times
    integer, parameter :: n08 = 10000          !max number of diff. times for 10 event pairs
    integer, parameter :: maxboot = 100        ! max number of bootstrap resamples
-   integer, parameter :: maxevid = 100000000 ! maximum event id number
+   integer, parameter :: maxevid = 200000000 ! maximum event id number
 
     ! ------- GrowClust algorithm control parameters -------------------------------
    real, parameter    :: distmax = 5.0          ! maximum catalog(input) distance to join clusters (km)
